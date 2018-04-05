@@ -1,4 +1,5 @@
 ﻿input[type=text] {
+    outline:none;
     border: 2px solid red;
     border-radius: 4px;
     width: 60%;
@@ -12,12 +13,11 @@ input[type=button] {
     color: black;
     border: 2px solid #4CAF50; /* Green */
     padding: 12px 20px;
-    top: 85%;
+    top: 88%;
     left: 25%;
-    outline:none; /*center image*/
-    width: 120px;
+    outline:none; /*remove the blue outline when element focused*/
     font-weight: bold;
-    font-family:Lucida ;
+    font-family:Lucida;
     font-size:15px;
     text-align:center;
 }
