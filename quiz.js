@@ -9,7 +9,7 @@ answer2=document.getElementById("answer2").value;
 alert(answer1)
 alert(answer2)
 
-if (answer1==answers[0]  && answer2==answers[1])
+if ((answer1.indexOf(answers[0])!=-1) && (answer2.indexOf(answers[1])!=-1))
     alert('Score 2/2')
 
 else
